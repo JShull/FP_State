@@ -16,6 +16,13 @@
       "com.unity.test-framework": "1.1.31",
       "com.unity.mathematics": "1.2.1"
     },
+     "samples": [
+      {
+        "displayName": "FSM Samples",
+        "description": "Samples for FSM Based on the Blog post by https://www.toptal.com/unity/unity-ai-development-finite-state-machine-tutorial.",
+        "path": "Samples~/SamplesURP"
+      }
+    ],
     "keywords": [
       "ScriptableObject",
       "FSM"

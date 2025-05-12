@@ -1,25 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
-using System;
-using UnityEngine;
-
 namespace FuzzPhyte.FSM
 {
+    using System.Collections.Generic;
+    using System;
+    using UnityEngine;
     public class FP_BaseStateMachine : MonoBehaviour
     {
-        public SO_BaseState CurrentState { get; set; }
+        public FSM_BaseState CurrentState { get; set; }
         //base state reference
         [Tooltip("Base State")]
         [SerializeField]
-        private SO_BaseState _initialState;
-        private Dictionary<Type, Component> _cachedComponents;
-
-        private void Awake()
+        protected FSM_BaseState _initialState;
+        protected Dictionary<Type, Component> _cachedComponents;
+        
+        public virtual void Awake()
         {
             CurrentState = _initialState;
             _cachedComponents = new Dictionary<Type, Component>();
         }
-        private void Update()
+        public virtual void Update()
         {
             CurrentState.Execute(this);
         }

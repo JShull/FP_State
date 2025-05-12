@@ -1,0 +1,17 @@
+{
+    "name": "com.fuzzphyte.fsm",
+    "rootNamespace": "FuzzPhyte.FSM",
+    "references": [
+        "Unity.Mathematics",
+        "com.fuzzphyte.utility"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
