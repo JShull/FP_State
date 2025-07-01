@@ -1,10 +1,10 @@
 {
     "name": "com.fuzzphyte.state",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "displayName": "FP State",
     "description": "FP State is a FSM implementation for Unity based off of the work by Garegin Tadevosyan",
-    "unity": "2022.1",
-    "unityRelease": "21f1",
+    "unity": "6000.0",
+    "unityRelease": "1f8",
     "documentationUrl": "https://github.com/jshull/FP_State/README.md",
     "changelogUrl": "https://github.com/jshull/FP_State/CHANGELOG.md",
     "licensesUrl": "https://github.com/jshull/FP_State/LICENSE.md",
@@ -13,8 +13,8 @@
       "url": "https://github.com/jshull/FP_State.git"
     },
     "dependencies": {
-      "com.unity.test-framework": "1.1.31",
-      "com.unity.mathematics": "1.2.1"
+      "com.unity.test-framework": "1.5.1",
+      "com.unity.mathematics": "1.3.2"
     },
      "samples": [
       {

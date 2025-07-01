@@ -7,23 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2025-07-01
+
+### [0.2.0] Added
+
+- [@JShull](https://github.com/jshull)]
+  - FP_Installer Support
+
 ## [0.1.0] - 2022-11-02
 
-### Added
+### [0.1.0] Added
 
 - [@JShull](https://github.com/jshull).
   - Setup the ChangeLog.md
   - Setup the Package Layout according to [Unity cus-Layout](https://docs.unity3d.com/Manual/cus-layout.html)
   - Setup the generic Unity Package System so I could bring this content over to other repositories for education
 
-### Changed
+### [0.1.0] Changed
 
 - None... yet
 
-### Fixed
+### [0.1.0] Fixed
 
 - Setup the contents to align with Unity naming conventions
 
-### Removed
+### [0.1.0] Removed
 
 - None... yet
